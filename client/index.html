@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="container">
+    <h1>Fortunes and Compliments</h1>
+    <section id ='buttons'>
+    <button id="complimentButton">Get a compliment</button>
+    <button id="fortuneButton">Get a fortune</button>
+    <button id="seeFortuneButton">See fortune list</button>
+    <button id="seeComplimentButton">See compliment list</button>
+    </section>
+    <form id="requestForm">
+      <input 
+      type='text'
+      id="comptext"
+      placeholder="Submit a compliment"/>
+      <input 
+      type='text'
+      id="rank"
+      placeholder='Rank the compliment 1-10'/>
+      <button>Suggest compliment</button>
+    </form>
+    <h3>list of pending compliments</h3>
+    <section id ='request-container'></section>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>

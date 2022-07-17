@@ -1,0 +1,51 @@
+div {
+  display: flex;
+  border-style: double;
+}
+button {
+  background-color: khaki;
+  color: black;
+  margin: 5px;
+  width: 80px;
+  height: 60px;
+  border-radius: 9px;
+  box-shadow: 3px 3px 9px gray;
+  transition-duration: 0.3s;
+}
+button:hover {
+  background-color: darkkhaki;
+}
+
+button:active {
+  background-color: rgb(132, 128, 77);
+  color: rgb(132, 128, 77);
+}
+
+p {
+  margin: 5px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://img.freepik.com/free-vector/background-with-crumpled-paper-effect_1048-14358.jpg?w=2000");
+}
+h3 {
+  display: flex;
+  font-style: bold;
+  text-decoration: underline;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+#buttons,
+#requestForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#request-container {
+  display: flex;
+  justify-content: center;
+}
