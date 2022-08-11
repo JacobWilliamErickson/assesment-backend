@@ -27,7 +27,7 @@ p {
 body {
   display: flex;
   flex-direction: column;
-  background-image: url("https://img.freepik.com/free-vector/background-with-crumpled-paper-effect_1048-14358.jpg?w=2000");
+  background-image: url("https://s.w-x.co/util/image/w/in-shimla_mountains.jpg?v=at&w=1280&h=720");
 }
 h3 {
   display: flex;
@@ -48,4 +48,7 @@ h1 {
 #request-container {
   display: flex;
   justify-content: center;
+}
+.house-card{
+  background-color: whitesmoke;
 }
